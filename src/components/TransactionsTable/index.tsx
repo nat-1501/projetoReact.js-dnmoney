@@ -1,13 +1,12 @@
 import { response } from "express";
-import { useContext, useEffect, useState } from "react";
-import { api } from "../../services/api";
+import { useContext } from "react";
 import { TransactionsContext } from "../../TransactionsContext";
 import { Container } from "./styles"
 
 
 export function TransactionTable() {
     
-    const data = useContext(TransactionsContext);
+    const transactions = useContext(TransactionsContext);
     
 
     return (

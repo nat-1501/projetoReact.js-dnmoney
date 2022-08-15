@@ -1,4 +1,4 @@
-import { createContext, useEffect, useState } from 'react'
+import { createContext, useEffect, useState, ReactNode } from 'react'
 import { api } from './services/api';
 
 interface transaction {
@@ -10,10 +10,14 @@ interface transaction {
     createdAt: string;
 }
 
+interface TransactionsProviderProps {
+    children: ReactNode;
+}
+
 
 export const TransactionsContext = createContext<Transaction[]>([]);
 
-export function TransactionsProvider() {
+export function TransactionsProvider({ children }: TransactionsProviderProps) {
     const [transactions, setTransactions] = useState<Transaction[]>([]);
 
     useEffect(() => {
@@ -23,7 +27,7 @@ export function TransactionsProvider() {
 
     return (
         <TransactionsContext.Provider value={transactions}>
-
+            {children}
         </TransactionsContext.Provider>
     );
 }
