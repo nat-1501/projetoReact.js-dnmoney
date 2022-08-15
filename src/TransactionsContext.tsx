@@ -15,10 +15,10 @@ interface TransactionsProviderProps {
 }
 
 
-export const TransactionsContext = createContext<Transaction[]>([]);
+export const TransactionsContext = createContext<transaction[]>([]);
 
 export function TransactionsProvider({ children }: TransactionsProviderProps) {
-    const [transactions, setTransactions] = useState<Transaction[]>([]);
+    const [transactions, setTransactions] = useState<transaction[]>([]);
 
     useEffect(() => {
         api.get('transactions')

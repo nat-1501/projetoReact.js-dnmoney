@@ -9,7 +9,6 @@ export function Summary() {
 
     const transactions = useContext(TransactionsContext);
 
-    const
 
     return (
         <Container>
