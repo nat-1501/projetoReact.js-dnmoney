@@ -32,6 +32,45 @@ This project was developed with the following technologies:
 
 You must have it installed on your machine ([Vscode](https://code.visualstudio.com/download)), or another one of your choice, and ([Git](https://git-scm.com/downloads))
 
+## Clone repository
+
+Go to the directory where you want to place the repository
+
+```bash
+  cd my-directory
+```
+
+clone the project
+
+```bash
+  git clone https://github.com/nat-1501/projetoReact.js-dnmoney.git
+```
+
+Go to the project directory
+
+```bash
+  cd projetoReact.js-dnmoney
+```
+
+Now open in the text editor you prefer (in the case of VScode)
+
+```bash
+  code .
+```
+
+ ## 🚀 Running the project
+
+Use  <strong>yarn</strong> to install project dependencies.
 
 
+```bash
+  yarn install
+```
+Then type the command below to open the server:
+
+```bash
+  yarn start
+```
+
+You can now access http://localhost:3000 from your browser.
 
