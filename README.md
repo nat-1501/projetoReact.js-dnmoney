@@ -32,7 +32,7 @@ This project was developed with the following technologies:
 
 You must have it installed on your machine ([Vscode](https://code.visualstudio.com/download)), or another one of your choice, and ([Git](https://git-scm.com/downloads))
 
-## Clone repository
+## :memo: Clone repository
 
 Go to the directory where you want to place the repository
 
