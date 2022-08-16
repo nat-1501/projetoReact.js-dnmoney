@@ -28,4 +28,10 @@ This project was developed with the following technologies:
 - Axios
 - Polished
 
+## ⚒️  Pre-requisites
+
+You must have it installed on your machine ([Vscode](https://code.visualstudio.com/download)), or another one of your choice, and ([Git](https://git-scm.com/downloads))
+
+
+
 
